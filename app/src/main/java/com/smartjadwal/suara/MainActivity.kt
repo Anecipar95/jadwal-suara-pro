@@ -416,7 +416,7 @@ fun ReminderCard(
                 fontWeight = FontWeight.Bold
             )
             Text(
-                text = ""${item.voiceMessage}"",
+                text = "${item.voiceMessage}",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 maxLines = 2,
